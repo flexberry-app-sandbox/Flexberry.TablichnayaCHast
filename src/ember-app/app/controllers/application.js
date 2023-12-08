@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-tablichnaya-c-hast-накладная-l',
             caption: i18n.t('forms.application.sitemap.tablichnaya-c-hast.i-i-s-tablichnaya-c-hast-накладная-l.caption'),
             title: i18n.t('forms.application.sitemap.tablichnaya-c-hast.i-i-s-tablichnaya-c-hast-накладная-l.title'),
-            icon: 'phone',
+            icon: 'edit',
             children: null
           }]
         }
