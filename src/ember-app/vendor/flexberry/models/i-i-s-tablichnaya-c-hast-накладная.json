@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISTablichnayaCHastНакладная",
+  "modelName": "i-i-s-tablichnaya-c-hast-накладная",
+  "className": "Накладная",
+  "nameSpace": "IIS.TablichnayaCHast",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "типНакл",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "ответственный",
+      "relatedTo": "i-i-s-tablichnaya-c-hast-ответственный",
+      "inverse": "накладная"
+    }
+  ],
+  "projections": [
+    {
+      "name": "НакладнаяE",
+      "modelName": "i-i-s-tablichnaya-c-hast-накладная",
+      "attrs": [
+        {
+          "name": "типНакл",
+          "caption": "Тип накл",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "НакладнаяL",
+      "modelName": "i-i-s-tablichnaya-c-hast-накладная",
+      "attrs": [
+        {
+          "name": "типНакл",
+          "caption": "Тип накл",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

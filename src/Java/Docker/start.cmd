@@ -1,0 +1,1 @@
+docker-compose -p tablichnayachast-java up -d

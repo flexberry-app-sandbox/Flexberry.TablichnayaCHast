@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Tablichnaya c hast",
+  "applicationTitle": "Tablichnaya c hast",
+  "items": [
+    {
+      "link": null,
+      "menuName": "tablichnaya-c-hast",
+      "caption": "TablichnayaCHast",
+      "title": "TablichnayaCHast",
+      "children": [
+        {
+          "link": "i-i-s-tablichnaya-c-hast-накладная-l",
+          "menuName": null,
+          "caption": "Накладная",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

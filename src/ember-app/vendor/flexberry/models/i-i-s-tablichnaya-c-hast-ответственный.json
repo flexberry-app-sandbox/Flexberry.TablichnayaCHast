@@ -1,0 +1,71 @@
+﻿{
+  "name": "IISTablichnayaCHastОтветственный",
+  "modelName": "i-i-s-tablichnaya-c-hast-ответственный",
+  "className": "Ответственный",
+  "nameSpace": "IIS.TablichnayaCHast",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имя",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фамилия",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "накладная",
+      "relatedTo": "i-i-s-tablichnaya-c-hast-накладная",
+      "inverse": "ответственный"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтветственныйE",
+      "modelName": "i-i-s-tablichnaya-c-hast-ответственный",
+      "attrs": [
+        {
+          "name": "фамилия",
+          "caption": "Фамилия",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтветственныйL",
+      "modelName": "i-i-s-tablichnaya-c-hast-ответственный",
+      "attrs": [
+        {
+          "name": "фамилия",
+          "caption": "Фамилия",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
